@@ -1,0 +1,140 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+body{
+    background-color: #F2CD5C;
+    font-family: 'Yeseva One', cursive;
+}
+
+
+nav{
+    background-color: chocolate;
+}
+nav ul{
+    font-size: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: flex;
+    margin-right:20px;
+
+    
+}
+
+ul{
+    display: flex;
+    
+    
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    color: #3C2317;
+   
+}
+
+.navcontent{
+    height: 50px;
+    width: 100%;
+}
+
+#main{
+    display: flex;
+ 
+}
+
+.photu{
+   
+    height: 550px;
+    width: 570px;
+    margin-left: 0px;
+}
+
+.photu img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.content{
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+
+.content h1{
+    font-size: 49px;
+    
+   
+}
+
+.content p{
+    font-size: 22px;
+    color: rgb(12, 82, 79);
+}
+
+#button{
+    width: 110px;
+    height: 30px;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color:rgb(7, 103, 110);
+    cursor: pointer;
+}
+
+#button:hover{
+    background-color: rgb(7, 158, 168);
+}
+
+.logo{
+    width: 520px;
+    height: 550px;
+   margin-top: 0px;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.contact a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 130px
+}
+
+.contact a:hover{
+    color: #F2CD5C
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3C2317;
+}
+
+.contact h2{
+    color: white;
+}
+
+.contact h3{
+    color: white;
+}
+
+.contact h3:hover{
+    color: #F2CD5C;
+}
